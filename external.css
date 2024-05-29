@@ -1,0 +1,94 @@
+.test {
+  background-color: #f5dfbb;
+  width: 106vw;
+  height: 200vh;
+}
+
+header {
+  background-color: #562c2c !important;
+
+  color: antiquewhite;
+  text-align: center;
+}
+.my_art {
+  display: flex;
+}
+@media screen and (width: 600px) {
+  #art4 {
+    height: 12%;
+    width: 12%;
+    border-radius: 95%;
+    background-color: #562c2c;
+    left: 20%;
+    position: absolute;
+    z-index: -1;
+  }
+  .my_art {
+    width: 400px;
+    height: auto;
+  }
+  form {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+#art1 {
+  background-color: #127475;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3vw;
+  margin: 1vw 5vh;
+  position: relative;
+  z-index: 5;
+}
+#art2 {
+  background-color: #127475;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10vw;
+  margin: 1% 1%;
+  z-index: 4;
+}
+#art3 {
+  background-color: #127475;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20vw;
+  margin: 1% 1%;
+}
+.my_art2 {
+  display: flex;
+}
+#art4 {
+  height: 25%;
+  width: 25%;
+  border-radius: 95%;
+  background-color: #562c2c;
+  left: 25%;
+  position: absolute;
+  z-index: 1;
+}
+#art5 {
+  height: 25%;
+  width: 25%;
+  background-color: #f2542d;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+#art6 {
+  width: 0;
+  height: 0;
+  border-top: 10vh solid transparent;
+  border-bottom: 10vw solid transparent;
+
+  border-left: 60px solid black;
+
+  bottom: 50vh;
+  right: 5vw;
+}
+form {
+  width: 65%;
+  margin: 0 auto;
+}
